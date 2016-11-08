@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF70F70F1DD28EDD002AA1B9 /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF70F70A1DD28EDD002AA1B9 /* madlib0_simple.txt */; };
+		EF70F7101DD28EDD002AA1B9 /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF70F70B1DD28EDD002AA1B9 /* madlib1_tarzan.txt */; };
+		EF70F7111DD28EDD002AA1B9 /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF70F70C1DD28EDD002AA1B9 /* madlib2_university.txt */; };
+		EF70F7121DD28EDD002AA1B9 /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF70F70D1DD28EDD002AA1B9 /* madlib3_clothes.txt */; };
+		EF70F7131DD28EDD002AA1B9 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF70F70E1DD28EDD002AA1B9 /* madlib4_dance.txt */; };
 		EFAD5CE31DD0A8C1004F8208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD5CE21DD0A8C1004F8208 /* AppDelegate.swift */; };
 		EFAD5CE51DD0A8C1004F8208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD5CE41DD0A8C1004F8208 /* ViewController.swift */; };
 		EFAD5CE81DD0A8C1004F8208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAD5CE61DD0A8C1004F8208 /* Main.storyboard */; };
@@ -14,16 +19,15 @@
 		EFAD5CED1DD0A8C1004F8208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAD5CEB1DD0A8C1004F8208 /* LaunchScreen.storyboard */; };
 		EFAD5CF51DD0A944004F8208 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD5CF41DD0A944004F8208 /* secondViewController.swift */; };
 		EFAD5CFB1DD0B0A5004F8208 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD5CFA1DD0B0A5004F8208 /* Story.swift */; };
-		EFAD5CFD1DD0B108004F8208 /* texts in Resources */ = {isa = PBXBuildFile; fileRef = EFAD5CFC1DD0B108004F8208 /* texts */; };
 		EFAD5CFF1DD0EECF004F8208 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD5CFE1DD0EECF004F8208 /* thirdViewController.swift */; };
-		EFAD5D011DD200DA004F8208 /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFAD5D001DD200DA004F8208 /* madlib0_simple.txt */; };
-		EFAD5D061DD239C8004F8208 /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFAD5D021DD239C8004F8208 /* madlib1_tarzan.txt */; };
-		EFAD5D071DD239C8004F8208 /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFAD5D031DD239C8004F8208 /* madlib2_university.txt */; };
-		EFAD5D081DD239C8004F8208 /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFAD5D041DD239C8004F8208 /* madlib3_clothes.txt */; };
-		EFAD5D091DD239C8004F8208 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFAD5D051DD239C8004F8208 /* madlib4_dance.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF70F70A1DD28EDD002AA1B9 /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib0_simple.txt; sourceTree = "<group>"; };
+		EF70F70B1DD28EDD002AA1B9 /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib1_tarzan.txt; sourceTree = "<group>"; };
+		EF70F70C1DD28EDD002AA1B9 /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib2_university.txt; sourceTree = "<group>"; };
+		EF70F70D1DD28EDD002AA1B9 /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib3_clothes.txt; sourceTree = "<group>"; };
+		EF70F70E1DD28EDD002AA1B9 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib4_dance.txt; sourceTree = "<group>"; };
 		EFAD5CDF1DD0A8C1004F8208 /* pset2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pset2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAD5CE21DD0A8C1004F8208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFAD5CE41DD0A8C1004F8208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,13 +37,7 @@
 		EFAD5CEE1DD0A8C1004F8208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFAD5CF41DD0A944004F8208 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		EFAD5CFA1DD0B0A5004F8208 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
-		EFAD5CFC1DD0B108004F8208 /* texts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = texts; sourceTree = "<group>"; };
 		EFAD5CFE1DD0EECF004F8208 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
-		EFAD5D001DD200DA004F8208 /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib0_simple.txt; path = pset2/texts/madlib0_simple.txt; sourceTree = "<group>"; };
-		EFAD5D021DD239C8004F8208 /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib1_tarzan.txt; path = pset2/texts/madlib1_tarzan.txt; sourceTree = "<group>"; };
-		EFAD5D031DD239C8004F8208 /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib2_university.txt; path = pset2/texts/madlib2_university.txt; sourceTree = "<group>"; };
-		EFAD5D041DD239C8004F8208 /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib3_clothes.txt; path = pset2/texts/madlib3_clothes.txt; sourceTree = "<group>"; };
-		EFAD5D051DD239C8004F8208 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib4_dance.txt; path = pset2/texts/madlib4_dance.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +54,6 @@
 		EFAD5CD61DD0A8C1004F8208 = {
 			isa = PBXGroup;
 			children = (
-				EFAD5D001DD200DA004F8208 /* madlib0_simple.txt */,
-				EFAD5D021DD239C8004F8208 /* madlib1_tarzan.txt */,
-				EFAD5D031DD239C8004F8208 /* madlib2_university.txt */,
-				EFAD5D041DD239C8004F8208 /* madlib3_clothes.txt */,
-				EFAD5D051DD239C8004F8208 /* madlib4_dance.txt */,
 				EFAD5CE11DD0A8C1004F8208 /* pset2 */,
 				EFAD5CE01DD0A8C1004F8208 /* Products */,
 			);
@@ -77,7 +70,11 @@
 		EFAD5CE11DD0A8C1004F8208 /* pset2 */ = {
 			isa = PBXGroup;
 			children = (
-				EFAD5CFC1DD0B108004F8208 /* texts */,
+				EF70F70A1DD28EDD002AA1B9 /* madlib0_simple.txt */,
+				EF70F70B1DD28EDD002AA1B9 /* madlib1_tarzan.txt */,
+				EF70F70C1DD28EDD002AA1B9 /* madlib2_university.txt */,
+				EF70F70D1DD28EDD002AA1B9 /* madlib3_clothes.txt */,
+				EF70F70E1DD28EDD002AA1B9 /* madlib4_dance.txt */,
 				EFAD5CFA1DD0B0A5004F8208 /* Story.swift */,
 				EFAD5CE21DD0A8C1004F8208 /* AppDelegate.swift */,
 				EFAD5CE41DD0A8C1004F8208 /* ViewController.swift */,
@@ -151,14 +148,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFAD5CED1DD0A8C1004F8208 /* LaunchScreen.storyboard in Resources */,
-				EFAD5CFD1DD0B108004F8208 /* texts in Resources */,
+				EF70F7121DD28EDD002AA1B9 /* madlib3_clothes.txt in Resources */,
+				EF70F7101DD28EDD002AA1B9 /* madlib1_tarzan.txt in Resources */,
 				EFAD5CEA1DD0A8C1004F8208 /* Assets.xcassets in Resources */,
-				EFAD5D061DD239C8004F8208 /* madlib1_tarzan.txt in Resources */,
-				EFAD5D091DD239C8004F8208 /* madlib4_dance.txt in Resources */,
+				EF70F70F1DD28EDD002AA1B9 /* madlib0_simple.txt in Resources */,
+				EF70F7111DD28EDD002AA1B9 /* madlib2_university.txt in Resources */,
+				EF70F7131DD28EDD002AA1B9 /* madlib4_dance.txt in Resources */,
 				EFAD5CE81DD0A8C1004F8208 /* Main.storyboard in Resources */,
-				EFAD5D071DD239C8004F8208 /* madlib2_university.txt in Resources */,
-				EFAD5D081DD239C8004F8208 /* madlib3_clothes.txt in Resources */,
-				EFAD5D011DD200DA004F8208 /* madlib0_simple.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +331,7 @@
 				EFAD5CF31DD0A8C1004F8208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
