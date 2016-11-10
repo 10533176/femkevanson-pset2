@@ -12,6 +12,7 @@ class secondViewController: UIViewController {
 
     @IBOutlet weak var wordsInput: UITextField!
     @IBOutlet weak var wordCount: UILabel!
+    @IBOutlet weak var nextStoryButton: UIButton!
     
     
     
@@ -25,7 +26,7 @@ class secondViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        
+        nextStoryButton.isHidden = true
         let array = ["madlib0_simple", "madlib1_tarzan", "madlib2_university", "madlib3_clothes", "madlib4_dance"]
         let randomIndex = Int(arc4random_uniform(UInt32(array.count)))
         
@@ -38,9 +39,14 @@ class secondViewController: UIViewController {
         wordCount.text = "\(countPlaceholder!) word(s) left"
         placeholder = newStory.getNextPlaceholder()
         wordsInput.placeholder = "fill in a \(placeholder!)"
+        
     }
     
     @IBAction func wordButton(_ sender: AnyObject) {
+        
+        if countPlaceholder == 1 {
+            nextStoryButton.isHidden = false
+        }
         
         if wordsInput.text!.isEmpty {
             wordsInput.placeholder = "You must fill in a \(placeholder!)!!"
@@ -58,8 +64,8 @@ class secondViewController: UIViewController {
                 newStory.fillInPlaceholder(word: wordsInput.text!)
                 placeholder = newStory.getNextPlaceholder()
                 wordsInput.text?.removeAll()
-                if countPlaceholder! == 0 {
-                    wordsInput.placeholder = "All the words are filled in"
+                if countPlaceholder! <= 0 {
+                    wordsInput.placeholder = "All the words are filled in!"
                 }
                 else {
                     wordsInput.placeholder = "fill in a \(placeholder!)"
@@ -76,15 +82,15 @@ class secondViewController: UIViewController {
 
 
     @IBAction func nextView(_ sender: AnyObject) {
+
         words = newStory.toString()
+        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
     /*
     // MARK: - Navigation
 

@@ -17,6 +17,7 @@
 
 import Foundation
 
+
 class Story {
     private var text: String                    // Text of the story.
     private var placeholders: Array<String>     // List of placeholders to fill in.
