@@ -239,7 +239,7 @@
                                                 <variation key="heightClass=regular-widthClass=compact" preservesSuperviewLayoutMargins="YES"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wmk-uo-cdf">
-                                                <frame key="frameInset" minX="36" minY="275" width="46.58%" height="37"/>
+                                                <frame key="frameInset" minX="36" minY="269" width="46.58%" height="37"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
@@ -304,6 +304,6 @@
         <image name="madlibs" width="282" height="308"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SXa-6L-yMH"/>
+        <segue reference="bZD-z9-xzL"/>
     </inferredMetricsTieBreakers>
 </document>

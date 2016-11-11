@@ -22,6 +22,16 @@
 		EFAD5CFF1DD0EECF004F8208 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD5CFE1DD0EECF004F8208 /* thirdViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EFDB44E31DD5C7CA00F0EAAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDB44DF1DD5C7C800F0EAAD /* madLibs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EFDB44CA1DD5C7C800F0EAAD;
+			remoteInfo = madLibs;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		EF70F70A1DD28EDD002AA1B9 /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib0_simple.txt; sourceTree = "<group>"; };
 		EF70F70B1DD28EDD002AA1B9 /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib1_tarzan.txt; sourceTree = "<group>"; };
@@ -38,6 +48,7 @@
 		EFAD5CF41DD0A944004F8208 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		EFAD5CFA1DD0B0A5004F8208 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		EFAD5CFE1DD0EECF004F8208 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		EFDB44DF1DD5C7C800F0EAAD /* madLibs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = madLibs.xcodeproj; path = madLibs/madLibs.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +81,7 @@
 		EFAD5CE11DD0A8C1004F8208 /* pset2 */ = {
 			isa = PBXGroup;
 			children = (
+				EFDB44DF1DD5C7C800F0EAAD /* madLibs.xcodeproj */,
 				EF70F70A1DD28EDD002AA1B9 /* madlib0_simple.txt */,
 				EF70F70B1DD28EDD002AA1B9 /* madlib1_tarzan.txt */,
 				EF70F70C1DD28EDD002AA1B9 /* madlib2_university.txt */,
@@ -86,6 +98,14 @@
 				EFAD5CEE1DD0A8C1004F8208 /* Info.plist */,
 			);
 			path = pset2;
+			sourceTree = "<group>";
+		};
+		EFDB44E01DD5C7C800F0EAAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB44E41DD5C7CA00F0EAAD /* madLibs.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,12 +155,28 @@
 			mainGroup = EFAD5CD61DD0A8C1004F8208;
 			productRefGroup = EFAD5CE01DD0A8C1004F8208 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EFDB44E01DD5C7C800F0EAAD /* Products */;
+					ProjectRef = EFDB44DF1DD5C7C800F0EAAD /* madLibs.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EFAD5CDE1DD0A8C1004F8208 /* pset2 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EFDB44E41DD5C7CA00F0EAAD /* madLibs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = madLibs.app;
+			remoteRef = EFDB44E31DD5C7CA00F0EAAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EFAD5CDD1DD0A8C1004F8208 /* Resources */ = {
