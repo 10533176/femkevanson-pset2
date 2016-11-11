@@ -16,7 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pfJ-Oc-wWD">
@@ -33,7 +33,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SbI-69-vKK">
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lW3-WE-GZy">
-                                                <frame key="frameInset" minX="32" width="90.73%" height="206"/>
+                                                <frame key="frameInset" minX="32" width="90.67%" height="206"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                                 <attributedString key="attributedText">
@@ -53,7 +53,7 @@
                                                 <variation key="heightClass=regular-widthClass=compact" preservesSuperviewLayoutMargins="YES"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7i-J4-cL1">
-                                                <frame key="frameInset" minX="180" minY="214" width="83.77%" height="30"/>
+                                                <frame key="frameInset" minX="162" minY="214" width="85.45%" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                                 <state key="normal" title="Write your own story! "/>
@@ -89,28 +89,55 @@
         <!--Second View Controller-->
         <scene sceneID="PjM-CP-eQi">
             <objects>
-                <viewController title="Fill in the words" id="920-Ey-7GM" userLabel="Second View Controller" customClass="secondViewController" customModule="pset2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="920-Ey-7GM" userLabel="Second View Controller" customClass="secondViewController" customModule="pset2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zYL-8P-zmI"/>
                         <viewControllerLayoutGuide type="bottom" id="PHK-Ky-zSb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="q8e-SD-7uF">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="chl-Xi-hA9">
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xAC-Ez-wMI">
                                         <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FeE-mN-UMl">
+                                                <frame key="frameInset" minX="27" minY="35" width="277" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Fill in the words to c">
+                                                        <attributes>
+                                                            <font key="NSFont" size="22" name="HelveticaNeue"/>
+                                                            <font key="NSOriginalFont" size="22" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="reate">
+                                                        <attributes>
+                                                            <font key="NSFont" size="22" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" the story">
+                                                        <attributes>
+                                                            <font key="NSFont" size="22" name="HelveticaNeue"/>
+                                                            <font key="NSOriginalFont" size="22" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="fill in..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iCq-f1-a9i">
-                                                <frame key="frameInset" minX="45" minY="151" width="215" height="30"/>
+                                                <frame key="frameInset" minX="32" minY="179" width="215" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="yes" spellCheckingType="yes"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LW7-oF-a96">
-                                                <frame key="frameInset" minX="86" minY="92" width="174" height="51"/>
+                                                <frame key="frameInset" minX="60" minY="120" width="187" height="56"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="% word(s) left">
@@ -123,16 +150,16 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="he0-db-UQg">
-                                                <frame key="frameInset" minX="268" minY="150" width="30" height="27"/>
+                                                <frame key="frameInset" minX="255" minY="178" width="30" height="27"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="OK"/>
                                                 <connections>
                                                     <action selector="wordButton:" destination="920-Ey-7GM" eventType="touchUpInside" id="Nqy-g6-g64"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HDC-EE-N4T">
-                                                <frame key="frameInset" minX="68" minY="242" width="61.38%" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HDC-EE-N4T">
+                                                <frame key="frameInset" minX="117" minY="248" width="64.60%" height="55.56%"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
@@ -144,7 +171,7 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
-                                                <variation key="heightClass=regular-widthClass=compact" preservesSuperviewLayoutMargins="YES"/>
+                                                <variation key="heightClass=regular-widthClass=compact" preservesSuperviewLayoutMargins="NO"/>
                                                 <connections>
                                                     <action selector="nextView:" destination="920-Ey-7GM" eventType="touchUpInside" id="mpc-NF-OCn"/>
                                                     <segue destination="lzq-al-zHl" kind="show" id="DhF-Ws-Gqq"/>
@@ -171,13 +198,14 @@
                     </view>
                     <connections>
                         <outlet property="nextStoryButton" destination="HDC-EE-N4T" id="iOk-rO-z2O"/>
+                        <outlet property="wordButton" destination="he0-db-UQg" id="flf-vC-bup"/>
                         <outlet property="wordCount" destination="LW7-oF-a96" id="KW8-LZ-Xas"/>
                         <outlet property="wordsInput" destination="iCq-f1-a9i" id="TAx-HC-t8f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LLT-Xh-dq8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1445.5999999999999" y="102.99850074962519"/>
+            <point key="canvasLocation" x="1444" y="101.19940029985008"/>
         </scene>
         <!--The Mad Libs Story-->
         <scene sceneID="kQd-vi-0Pu">
@@ -188,7 +216,7 @@
                         <viewControllerLayoutGuide type="bottom" id="3Yw-iG-NjE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tIL-iE-4ly">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="p4k-rr-cuy">
@@ -196,7 +224,7 @@
                                     <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="jAz-eM-oDy">
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1D-4q-bHB">
-                                                <frame key="frameInset" minX="36" minY="8" width="89.85%" height="259"/>
+                                                <frame key="frameInset" minX="36" minY="8" width="89.90%" height="259"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                                 <attributedString key="attributedText">
@@ -211,7 +239,7 @@
                                                 <variation key="heightClass=regular-widthClass=compact" preservesSuperviewLayoutMargins="YES"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wmk-uo-cdf">
-                                                <frame key="frameInset" minX="36" minY="275" width="37.73%" height="28"/>
+                                                <frame key="frameInset" minX="36" minY="275" width="46.58%" height="37"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
@@ -226,7 +254,7 @@
                                                 <variation key="heightClass=compact" preservesSuperviewLayoutMargins="YES"/>
                                                 <variation key="heightClass=regular-widthClass=compact" preservesSuperviewLayoutMargins="YES"/>
                                                 <connections>
-                                                    <action selector="newStory:" destination="lzq-al-zHl" eventType="touchUpInside" id="eje-Wi-d3W"/>
+                                                    <action selector="newStory:" destination="lzq-al-zHl" eventType="touchUpInside" id="sPb-Q1-ldT"/>
                                                     <segue destination="920-Ey-7GM" kind="show" id="bZD-z9-xzL"/>
                                                 </connections>
                                             </button>
@@ -251,7 +279,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ame-aO-o7L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2117.0914542728638" y="95.200000000000003"/>
+            <point key="canvasLocation" x="2116" y="94.902548725637189"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4Q6-LC-suX">
@@ -276,6 +304,6 @@
         <image name="madlibs" width="282" height="308"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bZD-z9-xzL"/>
+        <segue reference="SXa-6L-yMH"/>
     </inferredMetricsTieBreakers>
 </document>

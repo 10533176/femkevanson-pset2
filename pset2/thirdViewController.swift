@@ -10,24 +10,27 @@ import UIKit
 
 class thirdViewController: UIViewController {
     
+    // variables for third view
     var words: String?
-    
     @IBOutlet weak var storyText: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // display story text
         storyText.text = words
     }
     
+    
     @IBAction func newStory(_ sender: AnyObject) {
+        
+        // make words empty
         words = ""
     }
     
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     /*
